@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{9f87929c-ad02-4e3f-8d8f-6ab454c5c631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{a0a8d890-42eb-4fc1-9349-4ffc665cccbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{93521eab-3603-4aec-b397-de014e5a5dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Uuid">
+      <UniqueIdentifier>{2d7d5b5d-e26a-470c-852b-3447f4a80093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc">
+      <UniqueIdentifier>{d42b1f9f-64e0-47d8-8bf1-ade9e9ef5295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc\Initialize">
+      <UniqueIdentifier>{eeed84c7-f3cb-4cbf-ac90-dc801237555d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc\Keyboard">
+      <UniqueIdentifier>{d80511d2-f2bc-4dd4-a215-22ca66278776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc\Draw">
+      <UniqueIdentifier>{b76123ab-89be-44eb-babf-1424ae51cf6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc\Draw\GdiPlus">
+      <UniqueIdentifier>{29d25750-3003-4c0a-a181-f3632e523c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc\Draw\Gdi">
+      <UniqueIdentifier>{a4badd09-366c-425b-9850-7ba4346850a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\WndProc">
+      <UniqueIdentifier>{8cc8bece-b6b4-4ec3-b33e-f6279a1ce883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc\Draw\DirectX">
+      <UniqueIdentifier>{03f69fe1-1e63-4a63-a7a0-a1e90bcce392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics">
+      <UniqueIdentifier>{d79454b9-dd0c-499f-938c-74ce142f0854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\Drawer">
+      <UniqueIdentifier>{a31047f1-bfa9-4308-8b41-425ecff3a775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\WndProc">
+      <UniqueIdentifier>{be1a6413-a619-4ddd-a72a-d8a3a8d02227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\WndProc\Gdi">
+      <UniqueIdentifier>{d8c5c5e2-4da0-45b8-94b8-dc4ddbb5d54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\WndProc\GdiPlus">
+      <UniqueIdentifier>{fce3ab0f-5253-4af8-99e7-1507ad2ec6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\WndProc\DirectX">
+      <UniqueIdentifier>{caa1afbb-92dc-4b80-ab00-ab4226e9d0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics\WndProc\DirectX\V9">
+      <UniqueIdentifier>{d1a25a34-149c-4197-8feb-a2a76c98be35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc\Draw\DirectX\V9">
+      <UniqueIdentifier>{75071751-2b12-437a-9b4b-51b0a0a7b0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Container">
+      <UniqueIdentifier>{613fae4c-94b8-4540-bb51-23a2823cf67e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Program.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ytyaru\Framework\WndProc\Window.cpp">
+      <Filter>Framework\WndProc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ytyaru\Library\Uuid\Uuid.cpp">
+      <Filter>Library\Uuid</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Initialize\InitializeWndProc.cpp">
+      <Filter>Main\WndProc\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Keyboard\KeyboardWndProc.cpp">
+      <Filter>Main\WndProc\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ytyaru\Framework\Graphics\WndProc\DrawWndProc.cpp">
+      <Filter>Framework\Graphics\WndProc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ytyaru\Framework\Graphics\WndProc\Gdi\GdiWndProc.cpp">
+      <Filter>Framework\Graphics\WndProc\Gdi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ytyaru\Framework\Graphics\WndProc\GdiPlus\GdiPlusWndProc.cpp">
+      <Filter>Framework\Graphics\WndProc\GdiPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ytyaru\Framework\Graphics\WndProc\DirectX\V9\DirectX9WndProc.cpp">
+      <Filter>Framework\Graphics\WndProc\DirectX\V9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ytyaru\Framework\Container\Selector.cpp">
+      <Filter>Framework\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Draw\Gdi\GdiDrawerScene1.cpp">
+      <Filter>Main\WndProc\Draw\Gdi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Draw\Gdi\GdiDrawerScene2.cpp">
+      <Filter>Main\WndProc\Draw\Gdi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Draw\GraphicsSelector.cpp">
+      <Filter>Main\WndProc\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Draw\GdiPlus\GdiPlusDrawerScene1.cpp">
+      <Filter>Main\WndProc\Draw\GdiPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Draw\GdiPlus\GdiPlusDrawerScene2.cpp">
+      <Filter>Main\WndProc\Draw\GdiPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Draw\DirectX\V9\DirectX9DrawerScene1.cpp">
+      <Filter>Main\WndProc\Draw\DirectX\V9</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Draw\DirectX\V9\DirectX9DrawerScene2.cpp">
+      <Filter>Main\WndProc\Draw\DirectX\V9</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ytyaru\Framework\WndProc\IPartWndProc.h">
+      <Filter>Framework\WndProc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\WndProc\Window.h">
+      <Filter>Framework\WndProc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Library\Uuid\Uuid.h">
+      <Filter>Library\Uuid</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Initialize\InitializeWndProc.h">
+      <Filter>Main\WndProc\Initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Keyboard\KeyboardWndProc.h">
+      <Filter>Main\WndProc\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\Graphics\Drawer\IGdiPlusDrawer.h">
+      <Filter>Framework\Graphics\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\Graphics\Drawer\IDirectX9Drawer.h">
+      <Filter>Framework\Graphics\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\Graphics\Drawer\IGdiDrawer.h">
+      <Filter>Framework\Graphics\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\Graphics\WndProc\IDrawWndProc.h">
+      <Filter>Framework\Graphics\WndProc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\Graphics\WndProc\DrawWndProc.h">
+      <Filter>Framework\Graphics\WndProc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\Graphics\WndProc\Gdi\GdiWndProc.h">
+      <Filter>Framework\Graphics\WndProc\Gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\Graphics\WndProc\GdiPlus\GdiPlusWndProc.h">
+      <Filter>Framework\Graphics\WndProc\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\Graphics\WndProc\DirectX\V9\DirectX9WndProc.h">
+      <Filter>Framework\Graphics\WndProc\DirectX\V9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\Container\Selector.h">
+      <Filter>Framework\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Draw\Gdi\GdiDrawerScene1.h">
+      <Filter>Main\WndProc\Draw\Gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Draw\Gdi\GdiDrawerScene2.h">
+      <Filter>Main\WndProc\Draw\Gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Draw\GraphicsSelector.h">
+      <Filter>Main\WndProc\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Draw\GdiPlus\GdiPlusDrawerScene2.h">
+      <Filter>Main\WndProc\Draw\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Draw\GdiPlus\GdiPlusDrawerScene1.h">
+      <Filter>Main\WndProc\Draw\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Draw\DirectX\V9\DirectX9DrawerScene1.h">
+      <Filter>Main\WndProc\Draw\DirectX\V9</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Draw\DirectX\V9\DirectX9DrawerScene2.h">
+      <Filter>Main\WndProc\Draw\DirectX\V9</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
